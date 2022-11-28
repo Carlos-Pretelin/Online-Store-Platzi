@@ -11,6 +11,10 @@ module.exports = {
     },
     resolve: {
       extensions: [".js", ".jsx"],
+      alias:{
+        '@icons': path.resolve(__dirname, 'src//assets/icons/'),
+        '@logos': path.resolve(__dirname, 'src/assets/logos/'),
+      }
     },
     module: {
       rules: [
@@ -37,6 +41,10 @@ module.exports = {
               "css-loader",
               "sass-loader"
             ]
+        },
+        {// talvez deba quitar este corchete luego
+          test: /\.(png|jp(e*)g|svg|gif)$/,
+          type: 'asset'
         }
       ],
     },
