@@ -1,10 +1,10 @@
 import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Layout from "../containers/Layout"
-import Home from "../containers/Home"
-import Login from '../containers/Login'
+import Home from "../pages/Home"
+import Login from '../pages/Login'
 import RecoveryPassword from '../containers/RecoveryPassword'
-import NotFound from "../containers/NotFound"
+import NotFound from "../pages/NotFound"
 import "../styles/global.scss"
 
 const App = () => {
