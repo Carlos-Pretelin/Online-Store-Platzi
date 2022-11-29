@@ -11,22 +11,11 @@ const ProductList = () => {
 
 	const products = useGetProducts(API)
 
-	// const getData = async ()=> {
-	// 	const response = await axios.get(API);
-	// 	setProducts(response.data)
-	// 	console.log(response);
-	// }
-
-	// useEffect(async () => {
-	// 	getData
-	// }, [])
-
-
   return (
     <section className="main-container">
 			<div className="ProductList">
 				{products.map(product =>(
-					<ProductItem key={product.id} />
+					<ProductItem product={product} key={product.id} />
 				))}
 				
 			</div>
