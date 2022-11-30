@@ -3,6 +3,8 @@ import { useState } from "react";
 const initialState = {
     cart: [],
 }
+
+
 // este hook returna un estado y una funcion el esado inicial del estado pues es el objeto de arriba llamado initialstate
 
 const useInitialState = () => {
