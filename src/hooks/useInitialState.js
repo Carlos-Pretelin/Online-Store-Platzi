@@ -17,10 +17,10 @@ const useInitialState = () => {
     })
    }
 
-   const removeFromCart = (payload) => {
+   const removeFromCart = (indexValue) => {
     setState({
         ...state,
-        cart: state.cart.filter( items => items !== payload)
+        cart: state.cart.filter( (items, index) => index !== indexValue)
     })
    }
 
