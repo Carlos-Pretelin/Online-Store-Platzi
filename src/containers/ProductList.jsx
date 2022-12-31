@@ -5,7 +5,7 @@ import axios from "axios"
 import useGetProducts from '../hooks/useGetProducts';
 
 
-const API = 'https://api.escuelajs.co/api/v1/products?limit=14&offset=1';
+const API = 'https://api.escuelajs.co/api/v1/products?limit=28&offset=1';
 
 const ProductList = () => {
 
