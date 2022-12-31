@@ -18,3 +18,6 @@ One of the featureds of the app is that you can add items to your cart, to see a
 
 
 <img src="./src/assets/other/E-Comerce App.png" alt="logo" className="nav-logo" />
+
+
+<a href="https://platzi-e-store-d95e4b.netlify.app/?fbclid=IwAR1iaAQvrLsvu5hZMQtDeVdco2rFbE3L1FIvkgW7QqhOdRoxwSW5351PAqQ">Here you can visit my App</a>
