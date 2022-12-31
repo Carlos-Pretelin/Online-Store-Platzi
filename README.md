@@ -13,3 +13,8 @@ One of the featureds of the app is that you can add items to your cart, to see a
 * Use a Rest Api that serves information to consume
 * Manage several States across all the components, using useContext and other custom hooks
 * Laying a structure of directories and pages using Reac-Router-Dom
+
+
+
+
+<img src="./src/assets/other/E-Comerce App.png" alt="logo" className="nav-logo" />
